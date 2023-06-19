@@ -21,6 +21,19 @@ const Category = ({ params }) => {
           />
         </div>
       </div>
+      <div className={styles.item} key='2'>
+        <div className={styles.content}>
+          <h1 className={styles.title}>test</h1>
+          <p className={styles.desc}>desc</p>
+          <Button text='Посмотреть еще...' url='#' />
+        </div>
+        <div className={styles.imgContainer}>
+          <Image className={styles.img}
+            fill={true} src='/create.jpg'
+            alt='тут фотка'
+          />
+        </div>
+      </div>
     </div>
   )
 }

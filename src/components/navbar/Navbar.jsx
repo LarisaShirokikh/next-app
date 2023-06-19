@@ -1,14 +1,9 @@
 "use client"
 import Link from "next/link"
 import styles from "./page.module.css";
-import Image from "next/image";
+import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 
 const links = [
-  // {
-  //   id: 1,
-  //   title: '+7(917)5137977',
-  //   url: 'tel:+79175137977'
-  // },
   {
     id: 2,
     title: 'Home',
@@ -46,10 +41,7 @@ const Navbar = () => {
     <nav className={styles.container}>
       <Link href='/' className={styles.logo}>LoraSher</Link>
       <div className={styles.links}>
-        {/* <div className={styles.social}>
-          <Image src='/tele.png' width={20} height={20} className={styles.icon} alt='phone' />
-        </div> */}
-
+        <DarkModeToggle />
         {links.map((link) => (
           <Link key={link.id} href={link.url}>{link.title}</Link>
         ))}
