@@ -26,8 +26,8 @@ const links = [
   },
   {
     id: 6,
-    title: 'Dushboard',
-    url: '/dushboard'
+    title: 'Dashboard',
+    url: '/dashboard'
   },
   {
     id: 7,
