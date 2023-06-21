@@ -8,13 +8,13 @@ const Portfolio = () => {
       <h1 className={styles.selectTitle}>Choose a gallery</h1>
       <div className={styles.items}>
         <Link href='portfolio/illustrations' className={styles.item}>
-          <span className={styles.title}>Illustrations</span>
+          <span className={styles.title}>Иллюстрации</span>
         </Link>
         <Link href='portfolio/websites' className={styles.item}>
-          <span className={styles.title}>websites</span>
+          <span className={styles.title}>Сайты</span>
         </Link>
         <Link href='portfolio/application' className={styles.item}>
-          <span className={styles.title}>application</span>
+          <span className={styles.title}>Приложения</span>
         </Link>
       </div>
     </div>

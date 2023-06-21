@@ -9,13 +9,12 @@ export default function Home() {
     <main className={styles.container}>
       <div className={styles.item}>
         <h1 className={styles.title}>
-          The Future of AI in next few years...
+          Создаем инновации с легкостью и страстью...
         </h1>
         <p className={styles.desc}>
-          Turning your Idea into Reality.
-          We bring together the teams from the global tech industry.
+          чтобы ваше будущее стало сегодняшней реальностью!.
         </p>
-        <Button url='/portfolio' text="See Our Works" />
+        <Button url='/portfolio' text="Посмотреть работы" />
       </div>
 
       <div className={styles.item}>

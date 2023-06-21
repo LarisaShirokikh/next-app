@@ -23,15 +23,15 @@
 }
 
 .item:nth-child(1) {
-    background: url("/illustration.png");
+    background: url("/red.jpg");
 }
 
 .item:nth-child(2) {
-    background: url("/websites.jpg");
+    background: url("/summer.jpg");
 }
 
 .item:nth-child(3) {
-    background: url("/apps.jpg");
+    background: url("/tree.jpg");
 }
 
 .title {
